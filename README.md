@@ -60,12 +60,6 @@ Check out [husky](https://typicode.github.io/husky/#/). Currently it is configur
 
 You can fork/clone the repository.
 
-Prepare environment
-
-```bash
-npm run prepare #or yarn
-```
-
 Install dependencies:
 
 ```bash
