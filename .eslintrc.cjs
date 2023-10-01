@@ -14,10 +14,11 @@ module.exports = {
     sourceType: "module",
     project: "./tsconfig.json",
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint", "prettier"],
   rules: {
     "react/require-default-props": ["error", { functions: "defaultArguments" }],
     "react/react-in-jsx-scope": 0,
     "import/prefer-default-export": 0,
+    "prettier/prettier": "error",
   },
 };
